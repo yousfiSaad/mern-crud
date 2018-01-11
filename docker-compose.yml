@@ -26,6 +26,5 @@ services:
       - "REACT_APP_API_URL=http://localhost:3000"
     volumes:
       - ./react-src:/usr/src/app/react-src
-      - /usr/src/app/react-src/node_modules
     depends_on:
       - api
